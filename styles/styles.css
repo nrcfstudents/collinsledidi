@@ -1,28 +1,24 @@
 body{
-	background: grey;
-	margin-top: 50px;
-	margin-left: 30px;
-	margin-right: 20px;
-	margin-bottom: 60px;
+	background: indigo;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 60px;
+	margin-bottom: 70px;
 }
 .project-main-container{
-	display:flex; 
+	display: flex;
 	justify-content: space-between;
 }
+.project-container{
 	
- .project-container {
-  padding: 70px;
-  border-radius: 15px;
-  background: rgba(255, 255, 255, 0.2); /* Frosted glass effect */
-  backdrop-filter: blur(10px); /* Blurred background */
-  border: 2px solid rgba(255, 255, 255, 0.4); /* Soft white border */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  color: #fff;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); /* Glowing text */
-  animation: neonGlow 2s ease-in-out infinite alternate;
-}
+	
+	border: solid 1px #333; /* Dark border for contrast */
+	padding: 100px;
+	background: linear-gradient(45deg, #6a11cb, #2575fc); /* A cool purple-blue gradient */
+	border-radius: 10px; /* Slightly rounded corners for a smoother look */
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
 
+}
 .nav-bar{
 	display: flex;
-
 }
